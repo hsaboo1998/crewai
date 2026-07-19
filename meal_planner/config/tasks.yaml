@@ -1,0 +1,8 @@
+meal_planning_task:
+  description: >
+    Search for {meal_name} recipe for {servings} people with in {budget} budget
+    Consider dietary restrictions: {dietary_restrictions} and cooking skill level: {cooking_skill}
+    Find recipes and also provide ingredients
+  expected_output: >
+    A detailed meal plan with ingredients, quantities, cooking_instructions based on the requirements
+  agent: meal_planner_agent

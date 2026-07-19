@@ -1,0 +1,9 @@
+shopping_task:
+  description: >
+    Organize the ingredients from {meal_name} into grocery shopping list
+    Group the items by store sections and estimate qunatities for {servings} people
+    Consider dietary restrictions: {dietary_restrictions} and cooking skill: {cooking_skill}
+    Stay in the budget {budget}
+  expected_output: >
+    A detailed meal plan with ingredients, quantities, cooking_instructions based on the requirements
+  agent: shopping_organizer_agent

@@ -1,0 +1,10 @@
+summary_task:
+  description: >
+    Compile a comprehensive meal planning report that includes:
+    1. The complete recipe and cooking instructions from the meal planner
+    2. The organized shopping list with prices from the shopping organizer
+    3. The budget analysis and money-saving tips from the budget advisor
+    Format this as a complete, user-friendly meal planning guide.
+  expected_output: >
+    A comprehensive meal planning guide that combines all team outputs into one cohesive report
+  agent: summary_agent

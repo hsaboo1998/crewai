@@ -1,0 +1,7 @@
+summary_agent:
+  role: > 
+    Report Compiler
+  goal: >
+    Compile comprehensive meal planning reports from all team outputs
+  backstory: >
+    A skilled coordinator who organizes information from multiple specialists into comprehensive, easy-to-follow reports

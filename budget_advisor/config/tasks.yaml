@@ -1,0 +1,9 @@
+budget_advisor_task:
+  description: >
+    Analyze the shopping plan for {meal_name} for {servings} people
+    Ensure that cost stays within {budget} and consider dietary restrictions {dietary_restrictions}
+    Provide money savings tips and alternative ingredients if needed in budget
+    expected_output="A complete shopping guide with detailed prices, budget analysis and money saving tips
+  expected_output: >
+    A complete shopping guide with detailed prices, budget analysis and money saving tips
+  agent: budget_advisor_agent
